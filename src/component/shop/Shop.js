@@ -12,7 +12,12 @@ const Shop = () => {
             </div>
 
             <div className="cart-container">
-                <h3>cart</h3>
+                <h2>Cart</h2>
+               <div>
+                    <h3>Name:</h3>
+                    <h3>Price:</h3>
+               </div>
+
             </div>
         </div>
     );

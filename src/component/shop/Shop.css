@@ -1,15 +1,15 @@
 .shop{
     display: grid;
     grid-template-columns: 4fr 1fr;
-    position: relative;
 }
 .product-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    gap: 30px;
 }
 .cart-container{
+    text-align: center;
     background: lightsalmon;
     padding: 10px;
-    height: 1vw
 }
