@@ -1,0 +1,9 @@
+.shop{
+    margin:30px auto;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.cart-container{
+    background: lightsalmon;
+    padding: 10px;
+}
