@@ -17,6 +17,10 @@ const Books = () => {
         {id: 10, name: 'Paradoxical Sajid', price: 200, img: 'http://bdebooks.com/wp-content/uploads/2019/03/Paradoxical-Sajid-By-Arif-Azad.jpg'}
     ]
 
+    const handleAddToCart = () =>{
+        
+    }
+
     return (
         
         <div className='books'>
@@ -24,6 +28,7 @@ const Books = () => {
                books.map(book => <Book
                key = {book.id}
                book = {book}
+               handleAddToCart = {handleAddToCart}
                ></Book>)
            }
         </div>
