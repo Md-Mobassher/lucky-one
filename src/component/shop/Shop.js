@@ -1,5 +1,3 @@
-
-import Book from '../Book/Book';
 import Books from '../books/Books';
 import './Shop.css';
 

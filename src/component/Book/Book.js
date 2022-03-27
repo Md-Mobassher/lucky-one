@@ -1,14 +1,21 @@
 import React from 'react';
+import './Book.css'
+
+
 
 const Book = (props) => {
-    //const {name, id, img, price} = props.book; 
+    const {name, img, id, price} = props.book; 
+    const addToCart = () =>{
+        console.log("added",id)
+    }
 
     return (
-        <div>
-           
-            <h3>Book Name : {props.book.name}</h3>
-            {/* <h3>Price: ${price}</h3>
-            <h4>Id: {id}</h4> */}
+        <div className='book'>
+            <img src={img} alt="" />
+            <h3>Book Name: {name}</h3>
+            <h3>Price: ${price}</h3>
+            <h4>Id: {id}</h4>
+            <button className='btn' onClick={() => addToCart(id)}>Add to Cart</button>
         </div>
     );
 };

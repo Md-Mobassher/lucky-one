@@ -1,9 +1,15 @@
 .shop{
-    margin:30px auto;
     display: grid;
     grid-template-columns: 4fr 1fr;
+    position: relative;
+}
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
 }
 .cart-container{
     background: lightsalmon;
     padding: 10px;
+    height: 1vw
 }
